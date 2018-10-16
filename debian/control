@@ -17,6 +17,7 @@ Package: python-jaraco.functools
 Architecture: all
 Depends: ${misc:Depends},
          ${python:Depends},
+         python-backports.functools-lru-cache,
          python-six,
          python-more-itertools
 Description: jaraco.functools

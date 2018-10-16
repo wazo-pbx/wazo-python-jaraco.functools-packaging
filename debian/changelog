@@ -1,3 +1,9 @@
+wazo-python-jaraco.functools-packaging (1.20.0-1~wazo2) wazo-dev-stretch; urgency=medium
+
+  * add backports.functools-lru-cache dependency for python2
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Tue, 16 Oct 2018 12:44:28 -0400
+
 wazo-python-jaraco.functools-packaging (1.20.0-1~wazo1) wazo-dev-stretch; urgency=medium
 
   * Initial release
