@@ -1,1 +1,2 @@
 remove_setuptools_scm_dependency
+remove_warning_lru_cache

@@ -1,0 +1,23 @@
+Description: remove warning lru_cache
+
+We don't need this import
+
+--- wazo-python-jaraco.functools-packaging-1.20.0.orig/jaraco/functools.py
++++ wazo-python-jaraco.functools-packaging-1.20.0/jaraco/functools.py
+@@ -4,7 +4,6 @@ from __future__ import (
+ 
+ import functools
+ import time
+-import warnings
+ import inspect
+ import collections
+ from itertools import count
+@@ -21,7 +20,7 @@ except ImportError:
+ 		try:
+ 			from functools32 import lru_cache
+ 		except ImportError:
+-			warnings.warn("No lru_cache available")
++			pass
+ 
+ 
+ import more_itertools.recipes
