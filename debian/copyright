@@ -1,0 +1,11 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: jaraco.functools
+Source: https://github.com/jaraco/jaraco.functools
+
+Files: *
+Copyright: 2015-2018 Jason R. Coombs
+License: MIT
+
+Files: debian/*
+Copyright: 2018 The Wazo Authors  (see the AUTHORS file)
+License: GPL-3

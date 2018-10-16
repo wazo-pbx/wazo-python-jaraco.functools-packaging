@@ -1,0 +1,23 @@
+Description: remove setuptools_scm dependency
+
+* Be careful with tabs
+
+--- wazo-python-jaraco.functools-packaging-1.20.0.orig/setup.py
++++ wazo-python-jaraco.functools-packaging-1.20.0/setup.py
+@@ -19,7 +19,7 @@ pkg_resources "managed" namespace packag
+ 
+ params = dict(
+ 	name=name,
+-	use_scm_version=True,
++	version="1.20",
+ 	author="Jason R. Coombs",
+ 	author_email="jaraco@jaraco.com",
+ 	description=description or name,
+@@ -61,7 +61,6 @@ params = dict(
+ 		],
+ 	},
+ 	setup_requires=[
+-		'setuptools_scm>=1.15.0',
+ 	],
+ 	classifiers=[
+ 		"Development Status :: 5 - Production/Stable",

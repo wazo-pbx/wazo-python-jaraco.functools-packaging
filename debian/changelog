@@ -1,0 +1,5 @@
+wazo-python-jaraco.functools-packaging (1.20.0-1~wazo1) wazo-dev-stretch; urgency=medium
+
+  * Initial release
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Tue, 16 Oct 2018 08:40:36 -0400
