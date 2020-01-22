@@ -20,14 +20,16 @@ Depends: ${misc:Depends},
          python-backports.functools-lru-cache,
          python-six,
          python-more-itertools
-Description: jaraco.functools
+Description: Jaraco functools Python module
  .
-
+ Additional functools in the spirit of stdlib's functools.
+ 
 Package: python3-jaraco.functools
 Architecture: all
 Depends: ${misc:Depends},
          ${python3:Depends},
          python3-six,
          python3-more-itertools
-Description: jaraco.functools
+Description: Jaraco functools Python module
  .
+ Additional functools in the spirit of stdlib's functools.
