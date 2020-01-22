@@ -1,3 +1,9 @@
+wazo-python-jaraco.functools-packaging (1.20.0-1~wazo4) wazo-dev; urgency=medium
+
+  * rebuild
+
+  -- Wazo Maintainers <dev+pkg@wazo.community>  Wed, 22 Jan 2020 23:20:18 +0100
+
 wazo-python-jaraco.functools-packaging (1.20.0-1~wazo3) wazo-dev-buster; urgency=medium
 
   * buster
